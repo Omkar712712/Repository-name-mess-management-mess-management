@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mess Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Mess Management System</h1>
+
+<div class="box">
+    <h2>Add Student</h2>
+    <input type="text" id="name" placeholder="Student Name">
+    <button onclick="addStudent()">Add</button>
+</div>
+
+<div class="box">
+    <h2>Student Records</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Plates</th>
+                <th>Total</th>
+                <th>Paid</th>
+                <th>Due</th>
+            </tr>
+        </thead>
+        <tbody id="studentList"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
